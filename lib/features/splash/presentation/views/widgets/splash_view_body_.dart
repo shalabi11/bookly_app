@@ -12,6 +12,7 @@ class SplashViewBody extends StatelessWidget {
         Image.asset(AssetsApp.logo),
         SizedBox(height: 50),
         Text('Loading ...'),
+        SizedBox(height: 50),
       ],
     );
   }
