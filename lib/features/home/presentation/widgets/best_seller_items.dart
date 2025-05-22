@@ -42,10 +42,10 @@ class BestSellerItem extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
               ),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 3),
 
             Text('J.K. Rowling', style: Styles.textStyle14),
-            SizedBox(height: 15),
+            SizedBox(height: 3),
             SizedBox(
               width: MediaQuery.of(context).size.width * 0.6,
               child: Row(
