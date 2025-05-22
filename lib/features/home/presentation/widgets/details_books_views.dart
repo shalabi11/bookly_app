@@ -9,10 +9,13 @@ class DetailsBooksViews extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 40),
-        child: BookDetailsItem(),
+    return SafeArea(
+      right: true,
+      child: Scaffold(
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 40),
+          child: BookDetailsItem(),
+        ),
       ),
     );
   }

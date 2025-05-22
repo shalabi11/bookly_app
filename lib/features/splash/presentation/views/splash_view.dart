@@ -32,7 +32,7 @@ class _SplashViewDState extends State<SplashViewD> {
 
   void navigateToHome() {
     Future.delayed(Duration(seconds: 3), () {
-      GoRouter.of(context).push(AppRouter.home);
+      GoRouter.of(context).pushReplacement(AppRouter.home);
 
       // Get.to(
       //   () => const HomeView(),

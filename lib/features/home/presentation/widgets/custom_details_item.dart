@@ -7,7 +7,7 @@ class CustomDetailsItems extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: MediaQuery.of(context).size.width * 0.45,
+      width: MediaQuery.of(context).size.width * 0.4,
       child: AspectRatio(
         aspectRatio: 3 / 4.5,
         child: Container(

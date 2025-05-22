@@ -13,13 +13,19 @@ class DetailsItemInDetailsView extends StatelessWidget {
       children: [
         Text(
           'The Jungle Book',
-          style: Styles.textStyle30.copyWith(fontWeight: FontWeight.normal),
+          style: Styles.textStyle30.copyWith(fontWeight: FontWeight.bold),
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
         ),
         SizedBox(height: 4),
 
-        Text('J.K. Rowling', style: Styles.textStyle18),
+        Opacity(
+          opacity: .7,
+          child: Text(
+            'J.K. Rowling',
+            style: Styles.textStyle18.copyWith(fontStyle: FontStyle.italic),
+          ),
+        ),
         SizedBox(height: 14),
         Text('⭐ 4.8 (2382)'),
       ],

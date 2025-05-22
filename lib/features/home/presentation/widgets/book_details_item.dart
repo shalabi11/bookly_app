@@ -25,11 +25,19 @@ class BookDetailsItem extends StatelessWidget {
         SizedBox(height: 37),
         BuysTheBook(),
         SizedBox(height: 49),
-        Text(
-          'You can also like',
-          style: Styles.textStyle14.copyWith(fontWeight: FontWeight.bold),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'You can also like',
+                style: Styles.textStyle14.copyWith(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 16),
+              Expanded(child: FeaturedListView()),
+            ],
+          ),
         ),
-        Expanded(child: FeaturedListView()),
       ],
     );
   }
