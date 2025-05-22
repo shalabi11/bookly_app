@@ -23,7 +23,7 @@ class HomeViewBody extends StatelessWidget {
             child: Text('Best Seller', style: Styles.textStyle18),
           ),
           SliverToBoxAdapter(child: SizedBox(height: 20)),
-          Expanded(child: BestSellerListView()),
+          BestSellerListView(),
         ],
       ),
     );
