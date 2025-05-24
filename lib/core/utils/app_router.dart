@@ -1,5 +1,5 @@
 import 'package:bookly_app/features/home/presentation/home_view.dart';
-import 'package:bookly_app/features/home/presentation/widgets/details_books_views.dart';
+import 'package:bookly_app/features/home/presentation/details_books_views.dart';
 import 'package:bookly_app/features/splash/presentation/views/splash_view.dart';
 import 'package:go_router/go_router.dart';
 

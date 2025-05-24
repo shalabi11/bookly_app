@@ -1,6 +1,4 @@
 import 'package:bookly_app/features/home/presentation/widgets/book_details_item.dart';
-import 'package:bookly_app/features/home/presentation/widgets/custom_app_bar_for_dateails_view.dart';
-import 'package:bookly_app/features/home/presentation/widgets/custom_details_item.dart';
 
 import 'package:flutter/material.dart';
 
